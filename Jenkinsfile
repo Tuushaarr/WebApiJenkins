@@ -4,6 +4,7 @@ pipeline {
         AZURE_CREDENTIALS_ID = 'azure-service-principal'
         RESOURCE_GROUP = 'WebServiceRG'
         APP_SERVICE_NAME = 'tusharabc'
+        TF_WORKING_DIR='.'
     }
 
     stages {
